@@ -91,3 +91,7 @@ Route::middleware(['auth'])->group(function () {
         });
     });
 });
+
+Route::get('DataUser', [PagesController::class, 'DataUser'])->name('DataUser');
+Route::get('DetailUser', [PagesController::class, 'DetailUser'])->name('DetailUser');
+Route::get('DetailUserCourses', [PagesController::class, 'DetailUserCourses'])->name('DetailUserCourses');

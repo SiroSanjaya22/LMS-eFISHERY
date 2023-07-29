@@ -171,4 +171,16 @@ class PagesController extends Controller
             'quiz' => Quiz::where('Quiz_Id', $id)->first(),
         ]);
     }
+    public function DataUser () 
+    {
+        return view('admin.DataUser');
+    }
+    public function DetailUser () 
+    {
+        return view('admin.CrudUser.DetailUser');
+    }
+    public function DetailUserCourses () 
+    {
+        return view('admin.CrudUser.DetailUserCourses');
+    }
 }

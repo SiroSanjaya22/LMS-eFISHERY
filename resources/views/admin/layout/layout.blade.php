@@ -26,6 +26,8 @@
   <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
   {{-- JS --}}
   <script src="/js/jquery.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdn.datatables.net/1.10.25/js/jquery.dataTables.min.js"></script>
 </head>
 
 <body class="g-sidenav-show   bg-gray-100">
